@@ -128,7 +128,141 @@
                             <h6>Studenti online negli ultimi 30 minuti</h6>
                             <h3>125</h3>
                         </div>
-                        <div class="col-lg-3 order-0 order-lg-0">PANNELLO A COMPARSA</div>
+                        <div class="col-lg-3 order-0 order-lg-0">
+                            <h6 class="d-inline">Nuovo studente</h6>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel" style="width: 1000px;">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form class="px-5" action="#">
+                                        <div class=" row ">
+
+                                            <div class="d-inline col-6">
+                                                <label class="w-100" for="NOME">Nome
+                                                    <div class="input-group mb-3">
+
+                                                        <input type="text" class="form-control" placeholder="Username"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label>
+
+
+                                            </div>
+                                            <div class="d-inline col-6">
+                                                <label class="w-100" for="NOME">Cognome
+
+
+                                                    <div class="input-group mb-3">
+
+                                                        <input type="text" class="form-control" placeholder="Username"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+
+                                                </label>
+                                            </div>
+
+                                            <div class="d-inline col-6">
+                                                <label class="w-100" for="NOME">Email
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="text" class="form-control" placeholder="Username"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label>
+
+
+                                            </div>
+                                            <div class="d-inline col-6">
+                                                <label class="w-100" for="NOME">Password
+
+
+                                                    <div class="input-group mb-3">
+
+                                                        <input type="text" class="form-control" placeholder="Username"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                            <div class="d-inline col-6">
+                                                <label class="w-100" for="NOME">Indirizzo Email
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="text" class="form-control" placeholder="Username"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label>
+
+
+                                            </div>
+                                            <div class="d-inline col-6">
+                                                <label class="w-100" for="password">Password
+
+
+                                                    <div class="input-group mb-3">
+
+                                                        <input type="text" class="form-control" placeholder="Username"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                            <div class=" col-12">
+                                                <label class="w-100" for="address">Indirizzo
+
+                                                    <div class="input-group mb-3">
+                                                        
+                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="col-12 row">
+                                                <div class="col-6"> <label class="w-100" for="address">Indirizzo
+
+                                                    <div class="input-group mb-3">
+                                                        
+                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label></div>
+                                                <div class="col-4"> <label class="w-100" for="address">Indirizzo
+
+                                                    <div class="input-group mb-3">
+                                                        
+                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label></div>
+                                                <div class="col-2"> <label class="w-100" for="address">Indirizzo
+
+                                                    <div class="input-group mb-3">
+                                                        
+                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label></div>
+
+                                            </div>
+                                            <div class="col-12">
+                                                <label class="w-100" for="NOME">Email
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">Scegli file</span>
+                                                        <input type="text" class="form-control" placeholder="Nessun file selezionato"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </label>
+
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
                     <!-- MAIN-CONTENT -->
@@ -342,7 +476,7 @@
                                                             style="height: 16px; width: 16px;"></i>
                                                     </button>
                                                 </td>
-                                            </tr>    
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -409,14 +543,15 @@
                                 <!-- checkbox -->
                                 <div class=" row  zangetsu col-sm-7 col-md-8 col-xl-12 p-0 my-4"
                                     style=" background-color: white; position: relative; ">
-                                    
-                                        <h2 class="px-1 m-0" style="border-bottom: 1px solid grey;  padding-bottom: 1.5rem; background-color: rgb(233, 233, 233); border-radius: 10px 10px 0 0;">
-                                            Todo
+
+                                    <h2 class="px-1 m-0"
+                                        style="border-bottom: 1px solid grey;  padding-bottom: 1.5rem; background-color: rgb(233, 233, 233); border-radius: 10px 10px 0 0;">
+                                        Todo
 
 
-                                        </h2>
-                                      
-                                    
+                                    </h2>
+
+
                                     <div class="   col-8 zangetsu m-auto my-5 "
                                         style=" background-color: white; font-size: 10px;">
                                         <div class=" my-1 " style="border-bottom: 1px solid grey; ">
