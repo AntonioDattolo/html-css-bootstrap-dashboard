@@ -1,71 +1,57 @@
 /* container start */
 .my-container{
-    height: 100vh;
-   
+    height: 100vh;   
     display: flex;
     flex-direction: column;
-
 }
-
-
 .main-out{
     display: flex;
     height: 90%;
-    
 }
 .my-nav{
     max-width: 100%;
     height: 6vh;  
 }
-
 .my-side-bar{ 
-    
-    background: url(../img/sidebar-bg.png) rgb(1, 2, 66);
+    background: url(../img/sidebar-bg.png) rgb(1, 1, 19);
+    background-position: top;
 }
-
 .my-hbar{
-   height: 12rem;
-  
-    
-    
-    
-
+   min-height: 12rem;    
 }
-
-
-
-
-/* container fine */
-.ovr{
+.my-side-bar a{
+    text-decoration: none;
+    color: white;
+}
+/* container end */
+.my-scrolling{
     max-height: 94vh;
-    
     overflow: scroll;
 }
 .pic{
     width: 2rem;
-    background-color: white;
+    background-color: transparent;
+    border-radius: 50%;
 }
-
-.zangetsu{
+.my-br{
     border: 1px solid grey;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px grey;
 }
-
-
-
-
 .container-fluid li{
     margin: 0.3rem;
 }
-
-.aka{
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-    z-index: 999;
+/*  EFFECT */
+.over:hover{
+    background-color: rgba(245, 245, 245, 0.2);
+    border-radius: 3px; 
 }
-/* TABLE */
-
-
-
+.my-offcan{
+    
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+   
+    
+}

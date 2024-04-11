@@ -24,20 +24,17 @@
         <section class="my-nav">
             <nav>
                 <!-- logo -->
-                <div class=" row w-100 align-items-center  p-0">
-                    <div
-                        class="col-sm-1 col-lg-2 justify-content-center align-content-center d-none d-sm-none d-md-none d-lg-block ">
+                <div class=" row w-100 align-items-center  py-xl-2 p-0">
+                    <div class="col-sm-1 col-lg-2 justify-content-center align-content-center d-none d-sm-none d-md-none d-lg-block mx-2 ">
                         <img src="./img/logo.svg" alt="">
                     </div>
                     <div class="col-3 col-md-1 col-sm-1 d-lg-none align-self-start">
-                        <img class="p-0 my-0 " style="height: 2.5rem; width: 2.5rem;" src="./img/mobile-logo.png"
-                            alt="">
+                        <img class="p-0 my-0 " style="height: 2.5rem; width: 2.5rem;" src="./img/mobile-logo.png" alt="">
                     </div>
 
                     <div class="col-lg-8 col-md-10 col-sm-10 col-6 justify-content-center align-self-start">
                         <form class="p-0" role="search">
                             <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-
                         </form>
                     </div>
 
@@ -85,23 +82,23 @@
             <section class="my-side-bar col-2 col-sm-1 col-lg-2 row mx-0 p-0"
                 style="color: antiquewhite; height: 94vh;">
                 <div class="col-12">
-                    <div class="px-1 px-sm-2 px-md-3 my-3"><i class="fa-solid fa-house mx-1"></i>
-                        <h5 class="d-none d-lg-inline">Home</h5>
+                    <div class="px-1 px-sm-2 px-md-3 my-3 over "><a class="fa-solid fa-house mx-1"></a>
+                        <h5 class="d-none d-lg-inline"><a href="#">Home</a></h5>
                     </div>
-                    <div class="px-1 px-sm-2 px-md-3 my-3"><i class="fa-solid fa-chart-simple mx-1"></i>
-                        <h5 class="d-none d-lg-inline">Stats</h5>
+                    <div class="px-1 px-sm-2 px-md-3 my-3 over"><a class="fa-solid fa-chart-simple mx-1"></a>
+                        <h5 class="d-none d-lg-inline"><a href="#">Stats</a></h5>
                     </div>
-                    <div class="px-1 px-sm-2 px-md-3 my-3"><i class="fa-solid fa-signal mx-1"></i>
-                        <h5 class="d-none d-lg-inline">Signals</h5>
+                    <div class="px-1 px-sm-2 px-md-3 my-3 over"><a class="fa-solid fa-signal mx-1"></a>
+                        <h5 class="d-none d-lg-inline"><a href="#">Signals</a></h5>
                     </div>
                 </div>
-                <div class="col-12 p-2 align-content-end">
-                    <span class="px-1 px-sm-2 px-md-3 my-3"><i class="fa-solid fa-gear mx-1"></i>
-                        <span class="d-none d-lg-inline">Admin</span> </span>
+                <div class="col-12 p-2 align-content-end ">
+                    <span class="px-1 px-sm-2 px-md-3 my-3 over"><a class="fa-solid fa-gear mx-1"></a>
+                    <span class="d-none d-lg-inline"><a href="#">Admin</a></span>
                 </div>
             </section>
             <!-- MAIN CONTENT -->
-            <section class="col-10 col-sm-11 col-lg-10  ovr ">
+            <section class="col-10 col-sm-11 col-lg-10  my-scrolling ">
                 <div class="row">
 
                     <!-- MAIN-HEADBAR -->
@@ -109,18 +106,14 @@
                         class="col-12 s my-hbar row justify-content-between text-left m-0 bg-primary text-white align-content-center ">
                         <div class="col-sm-12 col-lg-5  order-1 order-lg-0 ">
                             <h2>
-                                Boolean <span class="badge rounded-pill text-bg-dark bg-opacity-25"
-                                    style="font-size: 10px;">Piano blaze</span>
+                                Boolean <span class="badge rounded-pill text-bg-dark bg-opacity-25" style="font-size: 10px;">Piano blaze</span>
                             </h2>
                             <h6>
                                 <span class="badge rounded-pill text-bg-dark bg-opacity-25">3 app</span>
                                 <span>>></span>
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-sm-inline">Boolean
-                                    mobile app</span>
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-sm-inline">Boolean
-                                    web app</span>
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-sm-inline">Boolean
-                                    blog app</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-sm-inline">Boolean mobile app</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-sm-inline">Boolean web app</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-sm-inline">Boolean blog app</span>
                                 <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-inline d-sm-none">+</span>
                             </h6>
                         </div>
@@ -130,137 +123,108 @@
                         </div>
                         <div class="col-lg-3 order-0 order-lg-0">
                             <h6 class="d-inline">Nuovo studente</h6>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
-
+                            <button class="btn btn-primary over my-offcan" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                                aria-labelledby="offcanvasRightLabel" style="width: 1000px;">
+                                aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
+                                <!-- OFFCANVAS CONTENT -->
                                 <div class="offcanvas-body">
-                                    <form class="px-5" action="#">
+                                    <form class="px-lg-5 px-sm-0" action="#">
                                         <div class=" row ">
-
-                                            <div class="d-inline col-6">
+                                            <div class="d-inline col-sm-12 col-lg-6">
                                                 <label class="w-100" for="NOME">Nome
                                                     <div class="input-group mb-3">
-
-                                                        <input type="text" class="form-control" placeholder="Username"
-                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label>
-
-
                                             </div>
-                                            <div class="d-inline col-6">
+                                            <div class="d-inline col-sm-12 col-lg-6">
                                                 <label class="w-100" for="NOME">Cognome
-
-
                                                     <div class="input-group mb-3">
-
-                                                        <input type="text" class="form-control" placeholder="Username"
-                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
-
                                                 </label>
                                             </div>
-
-                                            <div class="d-inline col-6">
+                                            <div class="d-inline col-sm-12 col-lg-6">
                                                 <label class="w-100" for="NOME">Email
                                                     <div class="input-group mb-3">
                                                         <span class="input-group-text" id="basic-addon1">@</span>
-                                                        <input type="text" class="form-control" placeholder="Username"
-                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label>
-
-
                                             </div>
-                                            <div class="d-inline col-6">
+                                            <div class="d-inline col-sm-12 col-lg-6">
                                                 <label class="w-100" for="NOME">Password
-
-
                                                     <div class="input-group mb-3">
-
-                                                        <input type="text" class="form-control" placeholder="Username"
-                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
-
                                                 </label>
                                             </div>
-                                            <div class="d-inline col-6">
+                                            <div class="d-inline col-sm-12 col-lg-6">
                                                 <label class="w-100" for="NOME">Indirizzo Email
                                                     <div class="input-group mb-3">
                                                         <span class="input-group-text" id="basic-addon1">@</span>
-                                                        <input type="text" class="form-control" placeholder="Username"
+                                                        <input type="text" class="form-control" 
                                                             aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label>
-
-
                                             </div>
-                                            <div class="d-inline col-6">
+                                            <div class="d-inline col-sm-12 col-lg-6">
                                                 <label class="w-100" for="password">Password
-
-
                                                     <div class="input-group mb-3">
-
-                                                        <input type="text" class="form-control" placeholder="Username"
-                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
-
                                                 </label>
                                             </div>
-                                            <div class=" col-12">
+                                            <div class=" col-sm-12 col-lg-12">
                                                 <label class="w-100" for="address">Indirizzo
-
                                                     <div class="input-group mb-3">
-                                                        
-                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input  type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label>
                                             </div>
-                                            <div class="col-12 row">
-                                                <div class="col-6"> <label class="w-100" for="address">Indirizzo
-
+                                            <div class=" col-sm-12 col-lg-12 row">
+                                                <div class="col-sm-4 col-md-6"> <label class="w-100" for="address">Città
                                                     <div class="input-group mb-3">
-                                                        
-                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input  type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label></div>
-                                                <div class="col-4"> <label class="w-100" for="address">Indirizzo
-
+                                                <div class="col-sm-4 col-md-4"> <label class="w-100" for="address">Stato
                                                     <div class="input-group mb-3">
-                                                        
-                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input  type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label></div>
-                                                <div class="col-2"> <label class="w-100" for="address">Indirizzo
-
-                                                    <div class="input-group mb-3">
-                                                        
-                                                    <input  type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                <div class="col-sm-4 col-md-2"> <label class="w-100" for="address">CAP
+                                                    <div class="input-group mb-3">   
+                                                        <input  type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label></div>
-
                                             </div>
-                                            <div class="col-12">
+                                            <div class= "col-sm-12 col-lg-12">
                                                 <label class="w-100" for="NOME">Email
                                                     <div class="input-group mb-3">
                                                         <span class="input-group-text" id="basic-addon1">Scegli file</span>
-                                                        <input type="text" class="form-control" placeholder="Nessun file selezionato"
-                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                        <input type="text" class="form-control" placeholder="Nessun file selezionato" aria-label="Username" aria-describedby="basic-addon1">
                                                     </div>
                                                 </label>
-
+                                            </div>
+                                            <div class="col-12">
+                                                <input type="checkbox" name="Accetto la politica e privacy" placeholder="Accetto la politica e privacy"  id="" style="display: inline;width:auto" required>
+                                                    <span>
+                                                        Seleziona per proseguire
+                                                    </span>
                                             </div>
                                         </div>
-
+                                        <div>
+                                            <button type="button" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
                                     </form>
                                 </div>
+                                <!-- FINE OFFCANVAS CONTENT -->
                             </div>
                         </div>
                     </section>
@@ -270,7 +234,7 @@
                         <div class="row w-100">
                             <div class=" col-sm-12 col-md-12 col-xl-8" style="margin: 0.5rem;">
                                 <!-- TABLE -->
-                                <div class="col-12  zangetsu my-4 ">
+                                <div class="col-12  my-br my-4 ">
                                     <h2 class="px-1 m-0"
                                         style=" border-bottom: 1px solid grey; padding-bottom: 1.5rem; background-color: rgb(233, 233, 233); border-radius: 10px 10px 0 0; ">
                                         Prossime Classi</h2>
@@ -481,10 +445,10 @@
                                     </table>
                                 </div>
                                 <!-- ACCordion -->
-                                <div class="col-12  zangetsu my-4  ">
-                                    <h2 class="px-1 m-0"
-                                        style=" border-bottom: 1px solid grey; padding-bottom: 1.5rem; background-color: rgb(233, 233, 233); border-radius: 10px 10px 0 0;">
-                                        F.A.Q.</h2>
+                                <div class="col-12  my-br my-4  ">
+                                    <h2 class="px-1 m-0" style=" border-bottom: 1px solid grey; padding-bottom: 1.5rem; background-color: rgb(233, 233, 233); border-radius: 10px 10px 0 0;">
+                                        F.A.Q.
+                                    </h2>
                                     <div class="accordion p-0 m-0" id="accordionFlushExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
@@ -541,19 +505,13 @@
                             </div>
                             <div class="col-sm-12  col-xl row justify-content-center " style="margin: 0.5rem;">
                                 <!-- checkbox -->
-                                <div class=" row  zangetsu col-sm-7 col-md-8 col-xl-12 p-0 my-4"
-                                    style=" background-color: white; position: relative; ">
+                                <div class=" row  my-br col-sm-7 col-md-8 col-xl-12 p-0 my-4" style=" background-color: white; position: relative; ">
 
-                                    <h2 class="px-1 m-0"
-                                        style="border-bottom: 1px solid grey;  padding-bottom: 1.5rem; background-color: rgb(233, 233, 233); border-radius: 10px 10px 0 0;">
+                                    <h2 class="px-1 m-0" style="border-bottom: 1px solid grey;  padding-bottom: 1.5rem; background-color: rgb(233, 233, 233); border-radius: 10px 10px 0 0;">
                                         Todo
-
-
                                     </h2>
 
-
-                                    <div class="   col-8 zangetsu m-auto my-5 "
-                                        style=" background-color: white; font-size: 10px;">
+                                    <div class=" col-8   col-sm-10 col-lg-10 my-br  m-auto my-2 my-sm-5" style=" background-color: white; font-size: 10px;">
                                         <div class=" my-1 " style="border-bottom: 1px solid grey; ">
                                             <input type="checkbox" value="" id="flexCheckDefault">
                                             <span for="flexCheckDefault">
@@ -562,9 +520,9 @@
                                         </div>
                                         <div class=" my-1" style="border-bottom: 1px solid grey;">
                                             <input type="checkbox" value="" id="flexCheckChecked" checked>
-                                            <label for="flexCheckChecked">
+                                            <span for="flexCheckChecked">
                                                 Lezione su Bootstrap 5 in classe #75
-                                                </span>
+                                            </span>
                                         </div>
                                         <div class=" my-1">
                                             <input type="checkbox" value="" id="flexCheckChecked" checked>
@@ -575,21 +533,23 @@
                                     </div>
                                 </div>
                                 <!-- CARD STATS -->
-                                <div class="zangetsu col-sm-7 col-md-8 col-xl-12 row my-1 "
+                                <div class="my-br col-sm-7 col-md-8 col-xl-12 row my-1 "
                                     style=" background-color: white;">
                                     <div class="p-1 row">
-                                        <div class="  p-4">
+                                        <div class="p-4">
 
                                             <div class="card-body row  p-1">
                                                 <div class="col-12">
                                                     <img class="img-fluid p-2" src="./img/stats.jpeg" alt="...">
-
                                                 </div class="col-12">
+
                                                 <h5 class=" col-12">Utenti Attivi</h5>
+
                                                 <p class=" col-12">
                                                     Lista degli utenti attivi in piattaforma nell'ultimo mese
                                                 </p>
-                                                <div class="col-12 zangetsu ">
+
+                                                <div class="col-12 my-br ">
                                                     <ul class="list-group list-group-flush">
                                                         <li class="list-group-item">Gennaio: 1200</li>
                                                         <li class="list-group-item">Febbraio: 800</li>
