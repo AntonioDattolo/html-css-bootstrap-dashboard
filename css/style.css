@@ -4,28 +4,25 @@
     display: flex;
     flex-direction: column;
 }
-.main-out{
-    display: flex;
-    height: 90%;
-}
 .my-nav{
     max-width: 100%;
-    height: 6vh;  
+    height: 5rem;  
 }
 .my-side-bar{ 
     background: url(../img/sidebar-bg.png) rgb(1, 1, 19);
     background-position: top;
+    max-height: calc(100vh - 5rem);
 }
 .my-hbar{
    min-height: 12rem;    
 }
 .my-side-bar a{
     text-decoration: none;
-    color: white;
+    color: white;   
 }
 /* container end */
 .my-scrolling{
-    max-height: 94vh;
+    max-height: calc(100vh - 5rem);
     overflow: scroll;
 }
 .pic{
@@ -47,11 +44,8 @@
     border-radius: 3px; 
 }
 .my-offcan{
-    
     width: 2.5rem;
     height: 2.5rem;
     border: 2px solid whitesmoke;
     border-radius: 10px;
-   
-    
 }
